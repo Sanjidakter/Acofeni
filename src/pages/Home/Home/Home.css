@@ -1,0 +1,21 @@
+.imgbg{
+  border-radius: 1868px;
+  background: linear-gradient(
+    142deg,
+    rgba(61, 136, 245, 0.08) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  margin-top: -10px;
+}
+.para {
+  margin-left: 400px;
+  display: flex;
+  width: 883px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: var(--dark-60, #6a6a6a);
+  text-align: center;
+  font-size: 18px;
+  font-family: Manrope;
+  line-height: 30px;
+}

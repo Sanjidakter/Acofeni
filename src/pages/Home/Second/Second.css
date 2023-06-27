@@ -1,0 +1,43 @@
+.circle-list {
+  list-style-type: none; /* Remove default bullet points */
+}
+
+.circle {
+    padding: 2%;
+  width: 1em;
+  height: 1em;
+  border: 2px solid black;
+  border-radius:  50%;
+  background-color: rgb(244, 238, 238);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3%;
+}
+
+.tick {
+    
+  color: rgb(0, 0, 0);
+  font-size: 0.8em;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  margin-left: 300px;
+  width: 473px;
+  height: 633px;
+  flex-shrink: 0;
+}
+
+.overlay-image {
+  width: 372px;
+  height: 281px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
