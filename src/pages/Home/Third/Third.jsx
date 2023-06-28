@@ -48,24 +48,28 @@ const Third = () => {
           </div>
           <div
             style={{
+              position: "relative",
+              width: "275px",
+              height: "142px",
+              background: "#181A25",
               borderLeft: "solid 8px blue",
               borderTop: "solid 8px blue",
-              width: "275px",
-              height: " 142px",
-              background: "#181A25",
             }}
           >
-            <h2 className="mt-8">50%</h2>
-            <p>Improvement in projet</p>
+            <h2 className="mt-8">10X</h2>
+            <p>Reduction in errors</p>
+
             <div
               style={{
                 position: "absolute",
-                bottom:-80,
-                right: -160,
-                width: "266px",
+                bottom: "-80px",
+                right: "-160px",
+                width: "306px",
                 height: "132px",
-                border: "solid 4px black",
+                borderBottom: "solid 2px black",
+                borderLeft: "solid 2px black",
                 background: "transparent",
+                zIndex: "-1",
               }}
             ></div>
           </div>
@@ -106,23 +110,24 @@ const Third = () => {
           </div>
           <div
             style={{
+              position: "relative",
+              width: "275px",
+              height: "142px",
+              background: "#181A25",
               borderLeft: "solid 8px blue",
               borderTop: "solid 8px blue",
-              width: "275px",
-              height: " 142px",
-              background: "#181A25",
             }}
           >
             <h2 className="mt-8">10X</h2>
             <p>Reduction in errors</p>
+
             <div
               style={{
                 position: "absolute",
-                bottom: -80,
-                left: -160,
+                bottom: "-80px",
+                left: "-160px",
                 width: "306px",
                 height: "132px",
-                // border only on the left side
                 borderBottom: "solid 2px black",
                 borderRight: "solid 2px black",
                 background: "transparent",

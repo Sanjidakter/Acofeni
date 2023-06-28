@@ -5,10 +5,11 @@ import robot from "../../../assets/robot-with-digital-tablet 1.png";
 const Home = () => {
   return (
     <div className="main text-center ">
+      <div className="ml-64">
       <h2
         style={{
           color: "#6a6a6a",
-          marginLeft: "375px",
+         
           fontSize: "72px",
           fontFamily: "Manrope",
           fontWeight: "600",
@@ -24,13 +25,14 @@ const Home = () => {
         antiquity,and have been common in <br /> fiction, as in Mary Shelley's
         Frankenstein or Karel Čapek's R.U.R. These characters and
       </p>
+      
+      </div>
       <button
         style={{
           color: "white",
           marginTop: "35px",
-          display: "inline-flex",
           padding: "19px 35px",
-          alignItems: "flex-start",
+          // alignItems: "flex-start",
           gap: "10px",
           borderRadius: "16px",
           background: "var(--primary-1, #3D88F5)",
@@ -53,8 +55,7 @@ const Home = () => {
           left: 0,
           width: "100%",
           height: "50%",
-          borderRadius: "2000px",
-          background: "linear-gradient(142deg, rgba(61, 136, 245, 0.08) 0%, rgba(217, 217, 217, 0) 100%)",
+         
         }}
       />
       <img
