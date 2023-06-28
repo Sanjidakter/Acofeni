@@ -10,7 +10,7 @@ const Main = () => {
             <Navbar></Navbar>
             <Home></Home>
             <Second></Second>
-            {/* <Third></Third> */}
+            <Third></Third>
         </div>
     );
 };

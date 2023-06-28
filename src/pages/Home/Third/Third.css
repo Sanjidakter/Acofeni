@@ -1,6 +1,16 @@
-.bg{
-    margin-top: 109px;
-    margin-left: 600px;
-    border-radius: 426px;
-background: conic-gradient(from 78deg at 14.77% 107.67%, rgba(61, 136, 245, 0.32) 258.75deg, rgba(217, 217, 217, 0.00) 360deg);
+.bg {
+  margin-top: 109px;
+  /* margin-left: 600px; */
+  border-radius: 426px;
+  background: conic-gradient(
+    from 78deg at 14.77% 107.67%,
+    rgba(61, 136, 245, 0.32) 258.75deg,
+    rgba(217, 217, 217, 0) 360deg
+  );
+}
+.tpara {
+  display: flex;
+  width: 883px;
+  flex-direction: column;
+  margin-left: 252px;
 }
