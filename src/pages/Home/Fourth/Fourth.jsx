@@ -40,58 +40,100 @@ const Fourth = () => {
         />
       </div>
       <div className="fs">
-        <hr />
-        <h2>1 Web AI <br /> working ex</h2>
-        <button
-          style={{
-            display: "flex",
-            alignItems: "center",
-            padding: "8px 16px",
-            border: "none",
-          }}
-        >
-          Explore
-          <img
-            src={uparrow}
-            alt=""
-            style={{  background: "var(--primary-03, #87B4F5)",marginLeft: "8px", borderRadius: "50px",width:"25px",marginLeft:"276px",height:"25px" }}
-          />
-        </button>
-        <hr />
-        <h2>2 Robots Learn to <br /> walk in just days</h2>
-        <button
-          style={{
-            display: "flex",
-            alignItems: "center",
-            padding: "8px 16px",
-            border: "none",
-          }}
-        >
-          Explore
-          <img
-            src={uparrow}
-            alt=""
-            style={{  background: "var(--primary-03, #87B4F5)",marginLeft: "8px", borderRadius: "50px",width:"25px",marginLeft:"276px",height:"25px" }}
-          />
-        </button>
-
-        <hr />
-        <h2>3 Why Robots Might be the <br /> Future of work</h2>
-        <button
-          style={{
-            display: "flex",
-            alignItems: "center",
-            padding: "8px 16px",
-            border: "none",
-          }}
-        >
-          Explore
-          <img
-            src={uparrow}
-            alt=""
-            style={{  background: "var(--primary-03, #87B4F5)",marginLeft: "8px", borderRadius: "50px",width:"25px",marginLeft:"276px",height:"25px" }}
-          />
-        </button>
+        <ol type="i">
+          <li>
+            <hr />
+            <h2>
+              1{" "}
+              <span className="p-6 text-start">
+                Web AI <br /> working ex
+              </span>
+            </h2>
+            <button
+              style={{
+                display: "flex",
+                alignItems: "center",
+                padding: "8px 16px",
+                border: "none",
+                marginTop: "43px",
+              }}
+            >
+              Explore
+              <img
+                src={uparrow}
+                alt=""
+                style={{
+                  background: "var(--primary-03, #87B4F5)",
+                  marginLeft: "8px",
+                  borderRadius: "50px",
+                  width: "25px",
+                  marginLeft: "276px",
+                  height: "25px",
+                }}
+              />
+            </button>
+          </li>
+          <li>
+            {" "}
+            <hr />
+            <h2>
+              2 Robots Learn to <br /> walk in just days
+            </h2>
+            <button
+              style={{
+                display: "flex",
+                alignItems: "center",
+                padding: "8px 16px",
+                border: "none",
+                marginTop: "43px",
+              }}
+            >
+              Explore
+              <img
+                src={uparrow}
+                alt=""
+                style={{
+                  background: "var(--primary-03, #87B4F5)",
+                  marginLeft: "8px",
+                  borderRadius: "50px",
+                  width: "25px",
+                  marginLeft: "276px",
+                  height: "25px",
+                }}
+              />
+            </button>
+          </li>
+          <li>
+            {" "}
+            <hr />
+            <h2>
+              3 Why Robots Might be the <br /> Future of work
+            </h2>
+            <button
+              style={{
+                display: "flex",
+                alignItems: "center",
+                padding: "8px 16px",
+                border: "none",
+                marginTop: "43px",
+              }}
+            >
+              Explore
+              <img
+                src={uparrow}
+                alt=""
+                style={{
+                  background: "var(--primary-03, #87B4F5)",
+                  marginLeft: "8px",
+                  borderRadius: "50px",
+                  width: "25px",
+                  marginLeft: "276px",
+                  height: "25px",
+                }}
+              />
+            </button>
+          </li>
+        </ol>
       </div>
     </div>
   );
