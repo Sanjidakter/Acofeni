@@ -5,7 +5,7 @@ import name from '../../../assets/I Acofeni.svg'
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 p-8">
+    <div className="navbar bg-base-100 p-4 bg-blue-100">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

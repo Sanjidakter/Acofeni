@@ -56,6 +56,7 @@ const Fourth = () => {
                 padding: "8px 16px",
                 border: "none",
                 marginTop: "43px",
+                marginBottom:"43px",
               }}
             >
               Explore
@@ -86,6 +87,7 @@ const Fourth = () => {
                 padding: "8px 16px",
                 border: "none",
                 marginTop: "43px",
+                marginBottom:"43px",
               }}
             >
               Explore
@@ -116,6 +118,7 @@ const Fourth = () => {
                 padding: "8px 16px",
                 border: "none",
                 marginTop: "43px",
+                marginBottom:"43px",
               }}
             >
               Explore

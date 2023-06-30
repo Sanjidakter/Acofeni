@@ -7,10 +7,11 @@ import Fourth from '../pages/Home/Fourth/Fourth';
 import Fifth from '../pages/Home/Fifth/Fifth';
 import LogoSection from '../pages/LogoSection/LogoSection';
 import Footer from '../pages/Shared/Footer/Footer';
+import './Main.css';
 
 const Main = () => {
     return (
-        <div>
+        <div className='main'>
             <Navbar></Navbar>
             <Home></Home>
             <Second></Second>

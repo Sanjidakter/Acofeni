@@ -5,7 +5,7 @@ import robot from "../../../assets/robot-with-digital-tablet 1.png";
 const Home = () => {
   return (
     <div className="main text-center ">
-      <div className="ml-64">
+      <div  className="htmain ml-64">
       <h2
         style={{
           color: "#6a6a6a",

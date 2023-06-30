@@ -1,3 +1,6 @@
+.fifth{
+  border-radius: 96px;
+}
 .person {
   /* margin-right: 135px; */
   width: 374px;
@@ -6,9 +9,7 @@
   border-radius: 24px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-.fs{
-    width: 1440px;
-height: 5504px;
+.fs {
+  width: 663px;
+  height: 300px;
 }
-  
-  

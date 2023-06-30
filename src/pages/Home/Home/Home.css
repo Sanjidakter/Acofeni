@@ -1,12 +1,13 @@
-.imgbg{
-  border-radius: 1868px;
+.main {
+  border-radius:0 0 1868px 1868px ;
   background: linear-gradient(
     142deg,
     rgba(61, 136, 245, 0.08) 0%,
     rgba(217, 217, 217, 0) 100%
   );
-  margin-top: -10px;
 }
+
+
 .para {
   display: flex;
   width: 883px;
@@ -17,8 +18,4 @@
   font-size: 18px;
   font-family: Manrope;
   line-height: 30px;
-}
-.main{
-  border-radius: 1868px;
-background: linear-gradient(142deg, rgba(61, 136, 245, 0.08) 0%, rgba(217, 217, 217, 0.00) 100%);
 }
