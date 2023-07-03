@@ -2,9 +2,11 @@ import React from "react";
 import "./Second.css";
 import img from "../../../assets/humanrob.png";
 import sbg from "../../../assets/sbg.png";
+import Container from "../../Container";
 const Second = () => {
   return (
-    <div className="mt-60 flex flex-col lg:flex-row ">
+    <Container>
+      <div className="second mt-60 flex flex-col lg:flex-row ">
       <div className="ml-36">
         <h2
           style={{
@@ -58,6 +60,7 @@ const Second = () => {
         <img class="overlay-image" src={sbg} alt="Overlay Image" />
       </div>
     </div>
+    </Container>
   );
 };
 

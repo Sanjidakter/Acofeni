@@ -5,7 +5,8 @@ import "./Fourth.css";
 
 const Fourth = () => {
   return (
-    <div className="flex felx-row ml-36 gap-40 mt-32">
+    <div className="max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
+  <div className="flex  md:felx-row ml-36 gap-40 mt-32 mb-8">
       <div>
         <h2
           style={{
@@ -139,6 +140,8 @@ const Fourth = () => {
         </ol>
       </div>
     </div>
+    </div>
+  
   );
 };
 

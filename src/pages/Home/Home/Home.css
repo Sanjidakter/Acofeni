@@ -1,12 +1,13 @@
-.main {
-  border-radius:0 0 1868px 1868px ;
+/* .main { */
+  /* width: 1440px; */
+  /* height: 5504px; */
+  /* border-radius: 0 0 1868px 1868px;
   background: linear-gradient(
     142deg,
     rgba(61, 136, 245, 0.08) 0%,
     rgba(217, 217, 217, 0) 100%
-  );
-}
-
+  ); */
+/* } */
 
 .para {
   display: flex;

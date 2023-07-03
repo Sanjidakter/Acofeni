@@ -1,11 +1,13 @@
 import React from "react";
 import "./Home.css";
 import robot from "../../../assets/robot-with-digital-tablet 1.png";
+import Container from "../../Container";
 
 const Home = () => {
   return (
-    <div className="main text-center ">
-      <div  className="htmain ml-64">
+   <Container>
+     <div className="main text-center ">
+      <div  className="htmain ml-60">
       <h2
         style={{
           color: "#6a6a6a",
@@ -72,6 +74,7 @@ const Home = () => {
       />
     </div>
     </div>
+   </Container>
   );
 };
 

@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../assets/logo.svg"
 import name from '../../../assets/I Acofeni.svg'
+import Container from "../../Container";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 p-4 bg-blue-100">
+   <Container>
+     <div className="navbar p-4 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,22 +31,18 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            <a>Our Team</a>
+          </li>
+
+          <li>
+            <a>Technology </a>
+          </li>
+          <li>
+            <a>Solution </a>
+          </li>
+          <li>
+            <a>Community</a>
+          </li>
           </ul>
         </div>
         <Link to='/'>
@@ -92,6 +90,7 @@ const Navbar = () => {
         </a>
       </div>
     </div>
+   </Container>
   );
 };
 

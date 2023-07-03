@@ -1,10 +1,12 @@
 import React from "react";
 import "./Third.css";
 import robot from "../../../assets/3d-rendering-biorobots-concept_prev_ui - Copy 1.png";
+import Container from "../../Container";
 
 const Third = () => {
   return (
-    <div className="mt-32">
+  <Container>
+      <div className="mt-3 ">
       <h2
         style={{
           color: "var(--dark-80, #3C3C3C)",
@@ -56,8 +58,8 @@ const Third = () => {
               borderTop: "solid 8px blue",
             }}
           >
-            <h2 className="mt-8">10X</h2>
-            <p>Reduction in errors</p>
+            <h2 className="mt-8">50%</h2>
+            <p>Improvement in projet</p>
 
             <div
               style={{
@@ -143,6 +145,7 @@ const Third = () => {
         Frankenstein or Karel Čapek's R.U.R. These characters and
       </p>
     </div>
+  </Container>
   );
 };
 

@@ -7,6 +7,7 @@ import quote2 from "../../../assets/quote.png";
 import quote3 from "../../../assets/quote.png";
 import { FaStar } from "react-icons/fa";
 import './Fifth.css'
+import Container from "../../Container";
 
 const Fifth = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -43,7 +44,8 @@ const Fifth = () => {
   };
 
   return (
-    <div className={`fifth flex flex-row ml-36 mr-36 rounded-tl-24 ${slides[currentSlide].background}`}>
+   <Container>
+     <div className={`fifth mt-36 flex flex-row ml-36 mr-36  ${slides[currentSlide].background}`}>
       <div className="mr-36">
         <div className="relative">
           <img className="person" src={slides[currentSlide].person} alt="" />
@@ -61,6 +63,7 @@ const Fifth = () => {
             color: "var(--dark-80, #3C3C3C)",
             fontSize: "48px",
             fontFamily: "Manrope",
+            marginTop:"3%"
           }}
         >
           Feedback on beautiful <br /> digital products
@@ -96,6 +99,7 @@ const Fifth = () => {
         </div>
       </div>
     </div>
+   </Container>
   );
 };
 
