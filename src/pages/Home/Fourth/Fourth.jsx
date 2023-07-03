@@ -100,7 +100,7 @@ const Fourth = () => {
                   marginLeft: "8px",
                   borderRadius: "50px",
                   width: "25px",
-                  marginLeft: "276px",
+                  // marginLeft: "276px",
                   height: "25px",
                 }}
               />

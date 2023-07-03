@@ -55,7 +55,7 @@ const Second = () => {
           Learn More
         </button>
       </div>
-      <div style={{ marginRight: "155px" }} class="container">
+      <div style={{ marginRight: "105px" }} class="container">
         <img class="image" src={img} alt="Main Image" />
         <img class="overlay-image" src={sbg} alt="Overlay Image" />
       </div>

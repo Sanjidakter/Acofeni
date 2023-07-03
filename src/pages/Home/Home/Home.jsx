@@ -47,7 +47,7 @@ const Home = () => {
         position: "relative",
         width: "1170px",
         height: "937px",
-        marginLeft: "165px",
+        marginLeft: "105px",
       }}
     >
       <div
