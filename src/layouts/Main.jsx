@@ -12,7 +12,8 @@ import './Main.css';
 const Main = () => {
     return (
         <div style={{
-            borderRadius: "0 0 1868px 1868px",
+            borderRadius: "0 0 1668px 1668px",
+            // width:"100%",
             background: "linear-gradient(142deg, rgba(61, 136, 245, 0.08) 0%, rgba(217, 217, 217, 0) 100%)",
         }} className='main'>
             <Navbar></Navbar>

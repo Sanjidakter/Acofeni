@@ -1,10 +1,12 @@
 import React from "react";
 import logo from "../../../assets/logo.svg";
 import icons from "../../../assets/footerlogo.svg";
+import Container from "../../Container";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10  text-base-content mt-36 ml-36">
+    <Container>
+      <footer className="footer p-10  text-base-content mt-36 ">
       <div>
         <div className="flex flex-row">
         <img src={logo} alt="" />
@@ -52,6 +54,7 @@ const Footer = () => {
         <a className="link link-hover">Management</a>
       </div>
     </footer>
+    </Container>
   );
 };
 

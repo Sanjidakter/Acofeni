@@ -6,7 +6,7 @@ import Container from "../../Container";
 const Second = () => {
   return (
     <Container>
-      <div className="second mt-60 flex flex-col lg:flex-row ">
+      <div className="second mb-16 mt-60 flex flex-col lg:flex-row ">
       <div className="ml-36">
         <h2
           style={{

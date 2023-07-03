@@ -1,7 +1,4 @@
-.second{
-  width: 1440px;
-/* height: 5504px; */
-}
+
 .circle-list {
   list-style-type: none; /* Remove default bullet points */
 }
@@ -33,7 +30,7 @@
 .image {
   position: relative;
   display: inline-block;
-  margin-left: 240px;
+  margin-left: 170px;
   width: 473px;
   height: 633px;
   flex-shrink: 0;
