@@ -20,14 +20,14 @@ const Fifth = () => {
       quote: quote1,
     },
     {
-      background: "bg-blue-300",
+      background: "bg-white",
       content:
         "The second vision, known as the connectionist approach, sought to achieve intelligence through learning. Proponents of this approach, most prominently Frank Rosenblatt, sought to connect Perceptron in ways inspired.",
       person: person2,
       quote: quote2,
     },
     {
-      background: "bg-green-300",
+      background: "bg-white",
       content:
         "The second vision, known as the connectionist approach, sought to achieve intelligence through learning. Proponents of this approach, most prominently Frank Rosenblatt, sought to connect Perceptron in ways inspired.",
       person: person3,
@@ -119,16 +119,16 @@ const Fifth = () => {
         </div>
       </div>
   
-      <div className="fs p-12  ">
+      <div className="fs p-8  ">
         <h2
           style={{
             color: "var(--dark-80, #3C3C3C)",
-            fontSize: "48px",
+            fontSize: "28px",
             fontFamily: "Manrope",
             marginTop: "6%",
-            marginBottom:"24px"
+            marginBottom:"14px"
           }}
-          className="text-2xl md:text-4xl"
+          className="text-2xl"
         >
           Feedback on beautiful <br /> digital products
         </h2>

@@ -13,8 +13,8 @@ const LogoSection = () => {
         style={{
           marginTop:"128px",
           color: "var(--dark-80, #3C3C3C)",
-          textAlign: "center",
-          fontSize: "48px",
+          textAlign: "start",
+          fontSize: "18px",
           fontFamily: "Manrope",
           letterSpacing: "0.1px",
           marginBottom:"31px",
