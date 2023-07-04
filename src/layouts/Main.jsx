@@ -14,14 +14,14 @@ import bgimg from "../assets/bg-color.png";
 const Main = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Home></Home>
       <Second></Second>
       <Third></Third>
-      <Fourth></Fourth>
+      {/* <Fourth></Fourth>
       <Fifth></Fifth>
       <LogoSection></LogoSection>
-      <Footer></Footer>
+      <Footer></Footer> */}
     </div>
   );
 };

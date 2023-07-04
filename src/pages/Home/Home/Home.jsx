@@ -117,7 +117,7 @@ const Home = () => {
       style={{
         position: "relative",
         width: "1170px",
-        height: "937px",
+        // height: "937px",
         // marginLeft: "105px",
       }}
     >

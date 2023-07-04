@@ -65,7 +65,7 @@ const Second = () => {
       {/* medium to small */}
       <div className="lg:hidden">
       <div className="second mb-16 flex flex-col lg:flex-row gap-[180px]">
-        <div className="ml-4">
+        <div >
           <h2
             style={{
               color: "var(--dark-80, #3C3C3C)",
