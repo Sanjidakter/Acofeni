@@ -91,13 +91,13 @@ const Fifth = () => {
         </div>
         <div className="flex mt-16">
           <button
-            className="bg-blue-300 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
+            className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
             onClick={handlePreviousSlide}
           >
             &lt;
           </button>
           <button
-            className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
+            className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center"
             onClick={handleNextSlide}
           >
             &gt;
@@ -152,13 +152,13 @@ const Fifth = () => {
         </div>
         <div className="flex mt-16">
           <button
-            className="bg-blue-300 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
+            className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
             onClick={handlePreviousSlide}
           >
             &lt;
           </button>
           <button
-            className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
+            className="bg-blue-300 hover:bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
             onClick={handleNextSlide}
           >
             &gt;

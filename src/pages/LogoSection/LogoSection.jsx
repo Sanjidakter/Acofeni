@@ -14,10 +14,11 @@ const LogoSection = () => {
           marginTop:"128px",
           color: "var(--dark-80, #3C3C3C)",
           textAlign: "start",
-          fontSize: "18px",
+          fontSize: "22px",
           fontFamily: "Manrope",
           letterSpacing: "0.1px",
           marginBottom:"31px",
+          marginLeft:"12%"
         }}
       >
         Proud To Work With

@@ -7,7 +7,7 @@ import Container from "../../Container";
 const Navbar = () => {
   return (
    <Container>
-    <div className="hidden lg-grid">
+    <div className="hidden lg:grid">
     <div className="navbar p-4 ">
       <div className="navbar-start">
         <div className="dropdown">
