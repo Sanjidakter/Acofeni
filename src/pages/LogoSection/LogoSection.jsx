@@ -13,12 +13,12 @@ const LogoSection = () => {
         style={{
           marginTop:"128px",
           color: "var(--dark-80, #3C3C3C)",
-          textAlign: "start",
-          fontSize: "22px",
+          textAlign: "center",
+          fontSize: "48px",
           fontFamily: "Manrope",
           letterSpacing: "0.1px",
           marginBottom:"31px",
-          marginLeft:"12%"
+          marginLeft:"8%"
         }}
       >
         Proud To Work With

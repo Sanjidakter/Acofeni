@@ -6,7 +6,7 @@ import quote1 from "../../../assets/quote.png";
 import quote2 from "../../../assets/quote.png";
 import quote3 from "../../../assets/quote.png";
 import { FaStar } from "react-icons/fa";
-import './Fifth.css'
+import "./Fifth.css";
 import Container from "../../Container";
 
 const Fifth = () => {
@@ -36,7 +36,9 @@ const Fifth = () => {
   ];
 
   const handlePreviousSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide - 1 + slides.length) % slides.length);
+    setCurrentSlide(
+      (prevSlide) => (prevSlide - 1 + slides.length) % slides.length
+    );
   };
 
   const handleNextSlide = () => {
@@ -45,131 +47,168 @@ const Fifth = () => {
 
   return (
     <Container>
-   <div className="hidden lg:grid">
-   <div className={`fifth mt-36 flex flex-col md:flex-row ml-6 md:ml-36 mr-6 md:mr-36 ${slides[currentSlide].background}`}>
-      <div className="md:mr-36">
-        <div className="relative">
-          <img className="person" src={slides[currentSlide].person} alt="" />
-          <img
-            className="quote absolute top-1/2 -right-12 transform -translate-y-1/2"
-            src={slides[currentSlide].quote}
-            alt=""
-          />
-        </div>
-      </div>
-  
-      <div className="fs">
-        <h2
-          style={{
-            color: "var(--dark-80, #3C3C3C)",
-            fontSize: "48px",
-            fontFamily: "Manrope",
-            marginTop: "6%",
-            marginBottom:"24px"
-          }}
-          className="text-2xl md:text-4xl"
+      <div className="hidden lg:grid">
+        <div
+          className={`fifth mt-36 flex flex-col md:flex-row ml-6 md:ml-36 mr-6 md:mr-36 ${slides[currentSlide].background}`}
         >
-          Feedback on beautiful <br /> digital products
-        </h2>
-        <p style={{
-          height:"90px",
-          width: "563px",
-        }} className="mb-8">{slides[currentSlide].content}</p>
-        <div className="flex items-center">
-          <p className="mr-2">
-            <small>Designer Chowder</small>
-          </p>
-          <div className="flex items-center">
-            {[...Array(5)].map((_, index) => (
-              <FaStar
-                key={index}
-                className="text-yellow-500 mr-1"
-                style={{ color: "#F2950D" }}
+          <div className="md:mr-36">
+            <div className="relative">
+              <img
+                className="person"
+                src={slides[currentSlide].person}
+                alt=""
               />
-            ))}
+              <img
+                className="quote absolute top-1/2 -right-12 transform -translate-y-1/2"
+                src={slides[currentSlide].quote}
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="fs">
+            <h2
+              style={{
+                color: "var(--dark-80, #3C3C3C)",
+                fontSize: "48px",
+                fontFamily: "Manrope",
+                marginTop: "6%",
+                marginBottom: "24px",
+              }}
+              className="text-2xl md:text-4xl"
+            >
+              Feedback on beautiful <br /> digital products
+            </h2>
+            <p
+              style={{
+                height: "90px",
+                width: "563px",
+              }}
+              className="mb-8"
+            >
+              {slides[currentSlide].content}
+            </p>
+            <div className="flex items-center">
+              <p className="mr-2">
+                <small>Designer Chowder</small>
+              </p>
+              <div className="flex items-center">
+                {[...Array(5)].map((_, index) => (
+                  <FaStar
+                    key={index}
+                    className="text-yellow-500 mr-1"
+                    style={{ color: "#F2950D" }}
+                  />
+                ))}
+              </div>
+            </div>
+            <div className="flex mt-16">
+              <button
+                className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
+                onClick={handlePreviousSlide}
+              >
+                &lt;
+              </button>
+              <button
+                className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center"
+                onClick={handleNextSlide}
+              >
+                &gt;
+              </button>
+            </div>
           </div>
         </div>
-        <div className="flex mt-16">
-          <button
-            className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
-            onClick={handlePreviousSlide}
-          >
-            &lt;
-          </button>
-          <button
-            className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center"
-            onClick={handleNextSlide}
-          >
-            &gt;
-          </button>
-        </div>
       </div>
-    </div>
-   </div>
-   <div className="lg:hidden">
-   <div className={`fifth mt-36 flex flex-col  ${slides[currentSlide].background}`}>
-      <div className="md:mr-36">
-        <div className="relative">
-          <img className="person" src={slides[currentSlide].person} alt="" />
-          <img
-            className="quote absolute top-1/2 -right-12 transform -translate-y-1/2"
-            src={slides[currentSlide].quote}
-            alt=""
-          />
-        </div>
-      </div>
-  
-      <div className="fs p-8  ">
-        <h2
-          style={{
-            color: "var(--dark-80, #3C3C3C)",
-            fontSize: "28px",
-            fontFamily: "Manrope",
-            marginTop: "6%",
-            marginBottom:"14px"
-          }}
-          className="text-2xl"
+      <div className="lg:hidden mb-80">
+        <div
+          className={` mt-36 flex flex-col  ${slides[currentSlide].background}`}
         >
-          Feedback on beautiful <br /> digital products
-        </h2>
-        <p style={{
-          height:"90px",
-          width: "563px",
-        }} className="mb-8">{slides[currentSlide].content}</p>
-        <div className="flex items-center">
-          <p className="mr-2">
-            <small>Designer Chowder</small>
-          </p>
-          <div className="flex items-center">
-            {[...Array(5)].map((_, index) => (
-              <FaStar
-                key={index}
-                className="text-yellow-500 mr-1"
-                style={{ color: "#F2950D" }}
+          <div className="md:mr-36">
+            <div className="relative">
+              <img src={slides[currentSlide].person} alt="" />
+              <img
+                className="quote absolute top-1/2 -right-12 transform -translate-y-1/2"
+                src={slides[currentSlide].quote}
+                alt=""
               />
-            ))}
+            </div>
+          </div>
+
+          <div className="fs-sm p-8  flex flex-row">
+            <div>
+              <h2
+                style={{
+                  color: "var(--dark-80, #3C3C3C)",
+                  fontSize: "28px",
+                  fontFamily: "Manrope",
+                  marginTop: "6%",
+                  marginBottom: "14px",
+                }}
+                className="text-2xl"
+              >
+                Feedback on beautiful <br /> digital products
+              </h2>
+              <p
+                style={{
+                  height: "90px",
+                  width: "163px",
+                }}
+                className="mb-8"
+              >
+                {slides[currentSlide].content}
+              </p>
+            </div>
+            <div className="flex flex-row items-center mt-6 ">
+              <p className="mr-2">
+                <small>Designer Chowder</small>
+              </p>
+              <div className="flex items-center">
+                {[...Array(5)].map((_, index) => (
+                  <FaStar
+                    key={index}
+                    className="text-yellow-500 mr-1"
+                    style={{ color: "#F2950D" }}
+                  />
+                ))}
+              </div>
+            </div>
+            <div className="flex ">
+              <button
+                className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
+                onClick={handlePreviousSlide}
+              >
+                &lt;
+              </button>
+              <button
+                className="bg-blue-300 hover:bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
+                onClick={handleNextSlide}
+              >
+                &gt;
+              </button>
+            </div>
           </div>
         </div>
-        <div className="flex mt-16">
-          <button
-            className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
-            onClick={handlePreviousSlide}
-          >
-            &lt;
-          </button>
-          <button
-            className="bg-blue-300 hover:bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
-            onClick={handleNextSlide}
-          >
-            &gt;
-          </button>
-        </div>
       </div>
-    </div>
-   </div>
-  </Container>
-  
+    </Container>
   );
 };
 
 export default Fifth;
+
+// btn for sm screen
+{
+  /* <div className="flex ">
+<button
+  className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
+  onClick={handlePreviousSlide}
+>
+  &lt;
+</button>
+<button
+  className="bg-blue-300 hover:bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
+  onClick={handleNextSlide}
+>
+  &gt;
+</button>
+</div> */
+}

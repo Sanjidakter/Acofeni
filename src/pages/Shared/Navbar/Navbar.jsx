@@ -6,7 +6,8 @@ import Container from "../../Container";
 
 const Navbar = () => {
   return (
-   <Container>
+    <>
+     <Container>
     <div className="hidden lg:grid">
     <div className="navbar p-4 ">
       <div className="navbar-start">
@@ -92,7 +93,9 @@ const Navbar = () => {
       </div>
     </div>
     </div>
-    <div className="lg:hidden">
+    
+   </Container>
+    <div className=" lg:hidden">
     <div className="navbar p-4 ">
       <div className="navbar-start">
         <div className="dropdown">
@@ -177,7 +180,8 @@ const Navbar = () => {
       </div>
     </div>
     </div>
-   </Container>
+    </>
+  
   );
 };
 

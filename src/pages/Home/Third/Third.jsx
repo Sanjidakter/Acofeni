@@ -145,7 +145,7 @@ const Third = () => {
           Frankenstein or Karel Čapek's R.U.R. These characters and
         </p>
       </div>
-      <div className="mt-3 lg:hidden ">
+      {/* <div className="mt-3 lg:hidden ">
         <h2
           style={{
             color: "var(--dark-80, #3C3C3C)",
@@ -163,7 +163,7 @@ const Third = () => {
               style={{
                 borderLeft: "solid 8px blue",
                 borderTop: "solid 8px blue",
-                width: "175px",
+                width: "75px",
                 height: " 142px",
                 background: "#181A25",
                 position: "relative",
@@ -178,7 +178,7 @@ const Third = () => {
                   position: "absolute",
                   top: -80,
                   right: -160,
-                  width: "300px",
+                  width: "150px",
                   height: "132px",
                   borderLeft: "solid 2px black", // border only on the left side
                   borderTop: "solid 2px black",
@@ -190,7 +190,7 @@ const Third = () => {
             <div
               style={{
                 position: "relative",
-                width: "175px",
+                width: "105px",
                 height: "142px",
                 background: "#181A25",
                 borderLeft: "solid 8px blue",
@@ -283,7 +283,7 @@ const Third = () => {
           in antiquity,and have been common in fiction, as in Mary Shelley's
           Frankenstein or Karel Čapek's R.U.R. These characters and
         </p>
-      </div>
+      </div> */}
     </Container>
   );
 };

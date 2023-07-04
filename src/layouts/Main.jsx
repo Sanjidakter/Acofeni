@@ -8,7 +8,6 @@ import Fourth from "../pages/Home/Fourth/Fourth";
 import Fifth from "../pages/Home/Fifth/Fifth";
 import LogoSection from "../pages/LogoSection/LogoSection";
 import Footer from "../pages/Shared/Footer/Footer";
-import "./Main.css";
 import bgimg from "../assets/bg-color.png";
 
 const Main = () => {
