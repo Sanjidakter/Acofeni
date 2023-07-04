@@ -44,9 +44,9 @@ const Fifth = () => {
   };
 
   return (
-   <Container>
-     <div className={`fifth mt-36 flex flex-row ml-36 mr-36  ${slides[currentSlide].background}`}>
-      <div className="mr-36">
+    <Container>
+    <div className={`fifth mt-36 flex flex-col md:flex-row ml-6 md:ml-36 mr-6 md:mr-36 ${slides[currentSlide].background}`}>
+      <div className="md:mr-36">
         <div className="relative">
           <img className="person" src={slides[currentSlide].person} alt="" />
           <img
@@ -56,20 +56,25 @@ const Fifth = () => {
           />
         </div>
       </div>
-
+  
       <div className="fs">
         <h2
           style={{
             color: "var(--dark-80, #3C3C3C)",
             fontSize: "48px",
             fontFamily: "Manrope",
-            marginTop:"3%"
+            marginTop: "6%",
+            marginBottom:"24px"
           }}
+          className="text-2xl md:text-4xl"
         >
           Feedback on beautiful <br /> digital products
         </h2>
-        <p className="mb-8">{slides[currentSlide].content}</p>
-        <div className=" items-center">
+        <p style={{
+          height:"90px",
+          width: "563px",
+        }} className="mb-8">{slides[currentSlide].content}</p>
+        <div className="flex items-center">
           <p className="mr-2">
             <small>Designer Chowder</small>
           </p>
@@ -83,7 +88,7 @@ const Fifth = () => {
             ))}
           </div>
         </div>
-        <div className="flex mt-4">
+        <div className="flex mt-16">
           <button
             className="bg-blue-300 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
             onClick={handlePreviousSlide}
@@ -99,7 +104,8 @@ const Fifth = () => {
         </div>
       </div>
     </div>
-   </Container>
+  </Container>
+  
   );
 };
 

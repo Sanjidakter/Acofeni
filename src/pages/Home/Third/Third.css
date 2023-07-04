@@ -14,3 +14,7 @@
   flex-direction: column;
   margin-left: 252px;
 }
+.img-sm{
+  height: 100px;
+  width:100%;
+}

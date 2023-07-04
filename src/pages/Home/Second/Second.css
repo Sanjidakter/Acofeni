@@ -25,21 +25,35 @@
 .container {
   position: relative;
   display: inline-block;
+  /* margin-left: 170px; */
 }
 
 .image {
-  position: relative;
   display: inline-block;
-  margin-left: 170px;
   width: 473px;
   height: 633px;
   flex-shrink: 0;
+
 }
 
 .overlay-image {
-  width: 372px;
-  height: 281px;
   position: absolute;
+  width:376px;
+  bottom: 7px;
+  right: 160px;
+  z-index: -1;
+}
+.image-sm {
+  display: inline-block;
+  width: 473px;
+  height: 633px;
+  flex-shrink: 0;
+
+}
+
+.overlay-image-sm {
+  position: absolute;
+  width:356px;
   bottom: 0;
   right: 0;
   z-index: -1;

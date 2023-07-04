@@ -20,14 +20,14 @@ const Main = () => {
             backgroundSize: "cover",
             backgroundPosition: "center",
         }} >
-            <Navbar></Navbar>
-            <Home></Home>
-            <Second></Second>
-            <Third></Third>
+            {/* <Navbar></Navbar> */}
+            <Home></Home>  
+            {/* <Second></Second>  */}
+            {/* <Third></Third>
             <Fourth></Fourth>
             <Fifth></Fifth>
             <LogoSection></LogoSection>
-            <Footer></Footer>
+            <Footer></Footer>  */}
         </div>
     );
 };
