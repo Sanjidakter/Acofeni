@@ -150,7 +150,7 @@ const Third = () => {
           style={{
             color: "var(--dark-80, #3C3C3C)",
             textAlign: "center",
-            fontSize: "48px",
+            fontSize: "28px",
             fontFamily: "Manrope",
           }}
         >

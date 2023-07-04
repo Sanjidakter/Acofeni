@@ -69,7 +69,7 @@ const Second = () => {
           <h2
             style={{
               color: "var(--dark-80, #3C3C3C)",
-              fontSize: "48px",
+              fontSize: "28px",
               fontFamily: "Manrope",
               textAlign:"center"
             }}

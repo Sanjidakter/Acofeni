@@ -77,22 +77,22 @@ const Home = () => {
     </div>
      </div>
     <div className="lg:hidden">
-    <div className="main text-center ">
+    <div className="main  ">
       <div  className="htmain ">
       <h2
         style={{
           color: "#6a6a6a",
-          fontSize: "72px",
+          fontSize: "42px",
           fontFamily: "Manrope",
           fontWeight: "600",
-          width: "910px",
+          width: "310px",
           height: "196px",
         }}
       >
         Take your personality <br /> and turn it into{" "}
         <span style={{ color: "#3D88F5" }}>technology</span>
       </h2>
-      <p className="para">
+      <p className="para-sm mt-16">
         Artificial beings with intelligence appeared as storytelling devices in
         antiquity,and have been common in <br /> fiction, as in Mary Shelley's
         Frankenstein or Karel Čapek's R.U.R. These characters and
@@ -108,7 +108,7 @@ const Home = () => {
           gap: "10px",
           borderRadius: "16px",
           background: "var(--primary-1, #3D88F5)",
-          marginLeft:"80%"
+          
         }}
       >
         Enqure Now
@@ -133,10 +133,9 @@ const Home = () => {
       />
       <img
         style={{
-          width: "50%",
-          height: "50%",
+          width: "40%",
+          height: "40%",
           objectFit: "cover",
-          marginRight:"135px",
         
         }}
         className="mt-12"

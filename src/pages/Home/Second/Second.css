@@ -45,16 +45,16 @@
 }
 .image-sm {
   display: inline-block;
-  width: 473px;
-  height: 633px;
+  width: 273px;
+  height: 333px;
   flex-shrink: 0;
 
 }
 
 .overlay-image-sm {
   position: absolute;
-  width:356px;
+  width:256px;
   bottom: 0;
-  right: 0;
+  right: 8;
   z-index: -1;
 }
