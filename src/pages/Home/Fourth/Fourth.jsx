@@ -45,10 +45,10 @@ const Fourth = () => {
             <div className="fs">
               <ol type="i">
                 <li>
-                  <hr />
+                  <hr className="mb-6"/>
                   <h2>
                     1{" "}
-                    <span className="p-6 text-start">
+                    <span className="p-6 text-start ">
                       <span>Web AI</span> <br />{" "}
                       <span className="ml-12">working ex</span>
                     </span>
@@ -80,7 +80,7 @@ const Fourth = () => {
                 </li>
                 <li>
                   {" "}
-                  <hr />
+                  <hr className="mb-6"/>
                   <h2>
                     2 <span>Robots Learn to</span> <br />{" "}
                     <span className="ml-8">walk in just days</span>
@@ -112,7 +112,7 @@ const Fourth = () => {
                 </li>
                 <li>
                   {" "}
-                  <hr />
+                  <hr className="mb-6"/>
                   <h2>
                     3 <span>Why Robots Might be the</span> <br />{" "}
                     <span className="ml-8">Future of work</span>
@@ -183,10 +183,10 @@ const Fourth = () => {
                 alt=""
               />
             </div>
-            <div className="fs">
+            <div className="fs-sm">
               <ol type="i">
                 <li>
-                  <hr />
+                  <hr className="mb-6"/>
                   <h2>
                     1{" "}
                     <span className="p-6 text-start">
@@ -221,7 +221,7 @@ const Fourth = () => {
                 </li>
                 <li>
                   {" "}
-                  <hr />
+                  <hr className="mb-6"/>
                   <h2>
                     2 <span>Robots Learn to</span> <br />{" "}
                     <span className="ml-8">walk in just days</span>
@@ -253,7 +253,7 @@ const Fourth = () => {
                 </li>
                 <li>
                   {" "}
-                  <hr />
+                  <hr className="mb-6"/>
                   <h2>
                     3 <span>Why Robots Might be the</span> <br />{" "}
                     <span className="ml-8">Future of work</span>

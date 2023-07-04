@@ -64,7 +64,7 @@ const Second = () => {
       </div>
       {/* medium to small */}
       <div className="lg:hidden">
-      <div className="second mb-16 mt-60 flex flex-col lg:flex-row gap-[180px]">
+      <div className="second mb-16 flex flex-col lg:flex-row gap-[180px]">
         <div className="ml-4">
           <h2
             style={{

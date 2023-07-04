@@ -78,7 +78,7 @@ const Home = () => {
      </div>
     <div className="lg:hidden">
     <div className="main text-center ">
-      <div  className="htmain ml-12">
+      <div  className="htmain ">
       <h2
         style={{
           color: "#6a6a6a",
@@ -133,8 +133,8 @@ const Home = () => {
       />
       <img
         style={{
-          width: "100%",
-          height: "100%",
+          width: "50%",
+          height: "50%",
           objectFit: "cover",
           marginRight:"135px",
         

@@ -45,7 +45,8 @@ const Fifth = () => {
 
   return (
     <Container>
-    <div className={`fifth mt-36 flex flex-col md:flex-row ml-6 md:ml-36 mr-6 md:mr-36 ${slides[currentSlide].background}`}>
+   <div className="hidden lg:grid">
+   <div className={`fifth mt-36 flex flex-col md:flex-row ml-6 md:ml-36 mr-6 md:mr-36 ${slides[currentSlide].background}`}>
       <div className="md:mr-36">
         <div className="relative">
           <img className="person" src={slides[currentSlide].person} alt="" />
@@ -104,6 +105,68 @@ const Fifth = () => {
         </div>
       </div>
     </div>
+   </div>
+   <div className="lg:hidden">
+   <div className={`fifth mt-36 flex flex-col  ${slides[currentSlide].background}`}>
+      <div className="md:mr-36">
+        <div className="relative">
+          <img className="person" src={slides[currentSlide].person} alt="" />
+          <img
+            className="quote absolute top-1/2 -right-12 transform -translate-y-1/2"
+            src={slides[currentSlide].quote}
+            alt=""
+          />
+        </div>
+      </div>
+  
+      <div className="fs p-12  ">
+        <h2
+          style={{
+            color: "var(--dark-80, #3C3C3C)",
+            fontSize: "48px",
+            fontFamily: "Manrope",
+            marginTop: "6%",
+            marginBottom:"24px"
+          }}
+          className="text-2xl md:text-4xl"
+        >
+          Feedback on beautiful <br /> digital products
+        </h2>
+        <p style={{
+          height:"90px",
+          width: "563px",
+        }} className="mb-8">{slides[currentSlide].content}</p>
+        <div className="flex items-center">
+          <p className="mr-2">
+            <small>Designer Chowder</small>
+          </p>
+          <div className="flex items-center">
+            {[...Array(5)].map((_, index) => (
+              <FaStar
+                key={index}
+                className="text-yellow-500 mr-1"
+                style={{ color: "#F2950D" }}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="flex mt-16">
+          <button
+            className="bg-blue-300 text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
+            onClick={handlePreviousSlide}
+          >
+            &lt;
+          </button>
+          <button
+            className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
+            onClick={handleNextSlide}
+          >
+            &gt;
+          </button>
+        </div>
+      </div>
+    </div>
+   </div>
   </Container>
   
   );
