@@ -119,18 +119,32 @@ const Fifth = () => {
           </div>
         </div>
       </div>
-      <div className="lg:hidden mb-80">
+      <div className="lg:hidden mb-80 mt-64">
         <div
           className={` mt-36 flex flex-col  ${slides[currentSlide].background}`}
         >
           <div className="md:mr-36">
             <div className="relative">
-              <img src={slides[currentSlide].person} alt="" />
+              <img className="mx-auto w-[250px]" src={slides[currentSlide].person} alt="" />
               <img
-                className="quote absolute top-1/2 -right-12 transform -translate-y-1/2"
+                className="quote-sm absolute top-1/2 right-12 transform -translate-y-1/2"
                 src={slides[currentSlide].quote}
                 alt=""
               />
+            </div>
+            <div className="flex ml-[150px] mt-[12px]">
+              <button
+                className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
+                onClick={handlePreviousSlide}
+              >
+                &lt;
+              </button>
+              <button
+                className="bg-blue-300 hover:bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
+                onClick={handleNextSlide}
+              >
+                &gt;
+              </button>
             </div>
           </div>
 
@@ -172,20 +186,7 @@ const Fifth = () => {
                 ))}
               </div>
             </div>
-            <div className="flex ">
-              <button
-                className="bg-blue-300 hover:bg-blue-500  text-white rounded-full w-8 h-8 flex items-center justify-center mr-2"
-                onClick={handlePreviousSlide}
-              >
-                &lt;
-              </button>
-              <button
-                className="bg-blue-300 hover:bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
-                onClick={handleNextSlide}
-              >
-                &gt;
-              </button>
-            </div>
+           
           </div>
         </div>
       </div>

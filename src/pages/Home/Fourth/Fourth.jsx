@@ -147,7 +147,7 @@ const Fourth = () => {
           </div>
         </div>
       </div>
-      <div className="lg:hidden">
+      <div className="lg:hidden w-full ">
         <div className="max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
           <div className="flex flex-col gap-10 mt-32 mb-8">
             <div>
@@ -186,22 +186,21 @@ const Fourth = () => {
             <div className="fs-sm">
               <ol type="i">
                 <li>
-                  <hr className="mb-6"/>
+                  <hr className="mb-2"/>
                   <h2>
                     1{" "}
                     <span className="p-6 text-start">
-                      <span>Web AI</span> <br />{" "}
-                      <span className="ml-12">working ex</span>
+                    Web AI working ex
                     </span>
                   </h2>
                   <button
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      padding: "8px 16px",
+                      padding: "4px 8px",
                       border: "none",
-                      marginTop: "43px",
-                      marginBottom: "43px",
+                      marginTop: "23px",
+                      marginBottom: "13px",
                     }}
                   >
                     Explore
@@ -210,10 +209,10 @@ const Fourth = () => {
                       alt=""
                       style={{
                         background: "var(--primary-03, #87B4F5)",
-                        marginLeft: "8px",
+                        marginLeft: "4px",
                         borderRadius: "50px",
                         width: "25px",
-                        marginLeft: "276px",
+                        marginLeft: "106px",
                         height: "25px",
                       }}
                     />
@@ -223,17 +222,16 @@ const Fourth = () => {
                   {" "}
                   <hr className="mb-6"/>
                   <h2>
-                    2 <span>Robots Learn to</span> <br />{" "}
-                    <span className="ml-8">walk in just days</span>
+                    2 <span>Robots Learn to</span> walk in just days
                   </h2>
                   <button
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      padding: "8px 16px",
+                      padding: "4px 8px",
                       border: "none",
-                      marginTop: "43px",
-                      marginBottom: "43px",
+                      marginTop: "23px",
+                      marginBottom: "23px",
                     }}
                   >
                     Explore
@@ -245,7 +243,7 @@ const Fourth = () => {
                         marginLeft: "8px",
                         borderRadius: "50px",
                         width: "25px",
-                        marginLeft: "276px",
+                        marginLeft: "106px",
                         height: "25px",
                       }}
                     />
@@ -262,10 +260,10 @@ const Fourth = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      padding: "8px 16px",
+                      padding: "4px 8px",
                       border: "none",
-                      marginTop: "43px",
-                      marginBottom: "43px",
+                      marginTop: "23px",
+                      marginBottom: "23px",
                     }}
                   >
                     Explore
@@ -277,7 +275,7 @@ const Fourth = () => {
                         marginLeft: "8px",
                         borderRadius: "50px",
                         width: "25px",
-                        marginLeft: "276px",
+                        marginLeft: "106px",
                         height: "25px",
                       }}
                     />

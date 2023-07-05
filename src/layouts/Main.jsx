@@ -12,7 +12,7 @@ import bgimg from "../assets/bg-color.png";
 
 const Main = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Navbar></Navbar>
       <Home></Home>
       <Second></Second>

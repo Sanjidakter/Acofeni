@@ -1,14 +1,13 @@
-
 .circle-list {
   list-style-type: none; /* Remove default bullet points */
 }
 
 .circle {
-    padding: 2%;
+  padding: 2%;
   width: 1em;
   height: 1em;
   border: 2px solid black;
-  border-radius:  50%;
+  border-radius: 50%;
   background-color: rgb(244, 238, 238);
   display: inline-flex;
   align-items: center;
@@ -17,7 +16,6 @@
 }
 
 .tick {
-    
   color: rgb(0, 0, 0);
   font-size: 0.8em;
 }
@@ -33,28 +31,35 @@
   width: 473px;
   height: 633px;
   flex-shrink: 0;
-
 }
 
 .overlay-image {
   position: absolute;
-  width:376px;
+  width: 376px;
   bottom: 7px;
   right: 160px;
   z-index: -1;
 }
-.image-sm {
-  display: inline-block;
+
+.image-container {
+  position: relative;
   width: 273px;
   height: 333px;
-  flex-shrink: 0;
-
 }
 
-.overlay-image-sm {
+.image-sm {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
   position: absolute;
-  width:256px;
-  bottom: 0;
-  right: 8;
-  z-index: -1;
+  background-color: rgba(108, 145, 193, 0.5); /* Replace with your desired overlay color */
+  width: 80%;
+  height: 60%;
+  border-top-left-radius: 100%;
+  bottom: -33px;
+  left: 55px;
 }
