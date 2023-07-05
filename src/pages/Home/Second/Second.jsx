@@ -7,8 +7,8 @@ const Second = () => {
   return (
     <Container>
       <div className="hidden lg:grid">
-        <div className="second mb-16 mt-60 flex flex-col lg:flex-row gap-[180px]">
-          <div className="ml-36">
+        <div className="second mb-16 mt-60 flex flex-col lg:flex-row gap-[180px] mx-auto justify-center">
+          <div className="">
             <h2
               style={{
                 color: "var(--dark-80, #3C3C3C)",

@@ -7,13 +7,16 @@ const Home = () => {
   return (
     
       <Container>
-        <div className="hidden lg:grid">
-          <div className="main text-center ">
-            <div className="htmain ml-60">
+        <div  style={{
+        borderRadius: "0 0 968px 968px",
+        background:
+          "linear-gradient(142deg, rgba(61, 136, 245, 0.08) 0%, rgba(217, 217, 217, 0.00) 100%)",
+      }} className="hidden lg:grid">
+          <div className="main text-center grid justify-center">
+            <div className="htmain grid justify-center">
               <h2
                 style={{
                   color: "#6a6a6a",
-
                   fontSize: "72px",
                   fontFamily: "Manrope",
                   fontWeight: "600",
@@ -32,11 +35,13 @@ const Home = () => {
               </p>
             </div>
             <button
+            className="grid justify-center mx-auto"
               style={{
+                width:"170px",
+                display:"inline",
                 color: "white",
                 marginTop: "35px",
                 padding: "19px 35px",
-                // alignItems: "flex-start",
                 gap: "10px",
                 borderRadius: "16px",
                 background: "var(--primary-1, #3D88F5)",
@@ -44,35 +49,7 @@ const Home = () => {
             >
               Enqure Now
             </button>
-            <div
-              style={{
-                position: "relative",
-                width: "1170px",
-                height: "937px",
-                marginLeft: "105px",
-              }}
-            >
-              <div
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
-                  height: "50%",
-                }}
-              />
-              <img
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                  marginRight: "135px",
-                }}
-                className="mt-12"
-                src={robot}
-                alt=""
-              />
-            </div>
+           <img className="mt-12" src={robot} alt="" />
           </div>
         </div>
         <div className="lg:hidden ">

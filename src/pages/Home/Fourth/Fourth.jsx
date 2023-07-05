@@ -6,10 +6,10 @@ import "./Fourth.css";
 const Fourth = () => {
   return (
     <>
-      <div className="hidden lg:grid">
-        <div className="max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
-          <div className="flex  md:felx-row ml-36 gap-40 mt-32 mb-8">
-            <div>
+      <div className="hidden lg:grid justify-items-center">
+      
+          <div className="flex justify-center  md:felx-row  gap-40 mt-32 mb-8">
+            <div className="mx-auto pl-12">
               <h2
                 style={{
                   color: "var(--dark-80, #3C3C3C)",
@@ -29,6 +29,8 @@ const Fourth = () => {
                   gap: "10px",
                   borderRadius: "16px",
                   background: "var(--primary-1, #3D88F5)",
+                  width:"167px",
+                  height:"43px",
                 }}
               >
                 Get Started
@@ -42,7 +44,7 @@ const Fourth = () => {
                 alt=""
               />
             </div>
-            <div className="fs">
+            <div className="fs pr-6">
               <ol type="i">
                 <li>
                   <hr className="mb-6"/>
@@ -146,7 +148,7 @@ const Fourth = () => {
             </div>
           </div>
         </div>
-      </div>
+      
       <div className="lg:hidden w-full ">
         <div className="max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
           <div className="flex flex-col gap-10 mt-32 mb-8">

@@ -7,8 +7,12 @@ import Container from "../../Container";
 const Navbar = () => {
   return (
     <>
-     <Container>
-    <div className="hidden lg:grid">
+     <Container >
+    <div  style={{ 
+       borderRadius: "0",
+      background:
+        "linear-gradient(142deg, rgba(61, 136, 245, 0.08) 100%, rgba(217, 217, 217, 0.00) 100%)",
+    }} className="hidden lg:grid">
     <div className="navbar p-4 ">
       <div className="navbar-start">
         <div className="dropdown">

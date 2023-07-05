@@ -47,7 +47,7 @@ const Fifth = () => {
 
   return (
     <Container>
-      <div className="hidden lg:grid">
+      <div className="hidden lg:grid justify-center">
         <div
           className={`fifth mt-36 flex flex-col md:flex-row ml-6 md:ml-36 mr-6 md:mr-36 ${slides[currentSlide].background}`}
         >
@@ -165,14 +165,14 @@ const Fifth = () => {
               <p
                 style={{
                   height: "90px",
-                  width: "163px",
+                  width: "263px",
                 }}
                 className="mb-8"
               >
                 {slides[currentSlide].content}
               </p>
             </div>
-            <div className="flex flex-row items-center mt-6 ">
+            <div className="flex flex-col items-center mt-6 ">
               <p className="mr-2">
                 <small>Designer Chowder</small>
               </p>

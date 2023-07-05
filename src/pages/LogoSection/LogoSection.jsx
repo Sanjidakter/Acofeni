@@ -9,12 +9,26 @@ import './LogoSection.css';
 const LogoSection = () => {
   return (
     <div>
-      <h2
+      <h2 className="hidden lg:grid"
         style={{
           marginTop:"128px",
           color: "var(--dark-80, #3C3C3C)",
           textAlign: "center",
           fontSize: "48px",
+          fontFamily: "Manrope",
+          letterSpacing: "0.1px",
+          marginBottom:"31px",
+          
+        }}
+      >
+        Proud To Work With
+      </h2>
+      <h2 className="lg:hidden"
+        style={{
+          marginTop:"128px",
+          color: "var(--dark-80, #3C3C3C)",
+          textAlign: "center",
+          fontSize: "28px",
           fontFamily: "Manrope",
           letterSpacing: "0.1px",
           marginBottom:"31px",

@@ -6,7 +6,7 @@ import Container from "../../Container";
 const Third = () => {
   return (
     <Container>
-      <div className="hidden lg:grid ">
+      <div className="hidden lg:grid justify-items-center">
         <h2
           style={{
             color: "var(--dark-80, #3C3C3C)",
