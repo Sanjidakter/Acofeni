@@ -56,9 +56,13 @@ const Second = () => {
               Learn More
             </button>
           </div>
-          <div className="container">
+          {/* <div className="container">
             <img className="image" src={img} alt="Main Image" />
             <img className="overlay-image" src={sbg} alt="Overlay Image" />
+          </div> */}
+           <div class="container">
+            <img class="image" src={img} alt="Image" />
+            <div class="overlay-big"></div>
           </div>
         </div>
       </div>

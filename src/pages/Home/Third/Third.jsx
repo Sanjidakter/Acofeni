@@ -29,6 +29,7 @@ const Third = () => {
                 background: "#181A25",
                 position: "relative",
                 marginBottom: "55px",
+               
               }}
             >
               <h2 className="mt-8">80%</h2>
@@ -40,11 +41,11 @@ const Third = () => {
                   top: -80,
                   right: -160,
                   width: "300px",
-                  height: "132px",
+                  height: "82px",
                   borderLeft: "solid 2px black", // border only on the left side
                   borderTop: "solid 2px black",
                   background: "transparent",
-                  zIndex: "-1",
+                  zIndex: "1",
                 }}
               ></div>
             </div>
@@ -67,11 +68,11 @@ const Third = () => {
                   bottom: "-80px",
                   right: "-160px",
                   width: "306px",
-                  height: "132px",
+                  height: "82px",
                   borderBottom: "solid 2px black",
                   borderLeft: "solid 2px black",
                   background: "transparent",
-                  zIndex: "-1",
+                  zIndex: "1",
                 }}
               ></div>
             </div>
@@ -101,12 +102,12 @@ const Third = () => {
                   top: -80,
                   left: -160,
                   width: "306px",
-                  height: "132px",
+                  height: "82px",
                   // border only on the left side
                   borderTop: "solid 2px black",
                   borderRight: "solid 2px black",
                   background: "transparent",
-                  zIndex: "-1",
+                  zIndex: "1",
                 }}
               ></div>
             </div>
@@ -129,11 +130,11 @@ const Third = () => {
                   bottom: "-80px",
                   left: "-160px",
                   width: "306px",
-                  height: "132px",
+                  height: "82px",
                   borderBottom: "solid 2px black",
                   borderRight: "solid 2px black",
                   background: "transparent",
-                  zIndex: "-1",
+                  zIndex: "1",
                 }}
               ></div>
             </div>
@@ -145,6 +146,7 @@ const Third = () => {
           Frankenstein or Karel Čapek's R.U.R. These characters and
         </p>
       </div>
+      
       {/* <div className="mt-3 lg:hidden ">
         <h2
           style={{
@@ -183,7 +185,7 @@ const Third = () => {
                   borderLeft: "solid 2px black", // border only on the left side
                   borderTop: "solid 2px black",
                   background: "transparent",
-                  zIndex: "-1",
+                  zIndex: "1",
                 }}
               ></div>
             </div>
@@ -210,7 +212,7 @@ const Third = () => {
                   borderBottom: "solid 2px black",
                   borderLeft: "solid 2px black",
                   background: "transparent",
-                  zIndex: "-1",
+                  zIndex: "1",
                 }}
               ></div>
             </div>
@@ -245,7 +247,7 @@ const Third = () => {
                   borderTop: "solid 2px black",
                   borderRight: "solid 2px black",
                   background: "transparent",
-                  zIndex: "-1",
+                  zIndex: "1",
                 }}
               ></div>
             </div>
@@ -272,7 +274,7 @@ const Third = () => {
                   borderBottom: "solid 2px black",
                   borderRight: "solid 2px black",
                   background: "transparent",
-                  zIndex: "-1",
+                  zIndex: "1",
                 }}
               ></div>
             </div>
