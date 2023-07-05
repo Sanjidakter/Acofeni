@@ -12,7 +12,7 @@
   display: flex;
   width: 883px;
   flex-direction: column;
-  margin-left: 252px;
+  /* margin-left: 252px; */
 }
 .img-sm{
   height: 100px;

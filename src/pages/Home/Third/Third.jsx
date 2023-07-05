@@ -17,7 +17,7 @@ const Third = () => {
         >
           Presenting the technology of <br /> the future
         </h2>
-        <div className="flex gap-28 ml-36 text-white text-center mb-28">
+        <div className="flex gap-28 text-white text-center mb-28">
           <div className="mt-24">
             <div
               className="text-center text-white"

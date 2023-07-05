@@ -9,7 +9,7 @@ const Fourth = () => {
       <div className="hidden lg:grid justify-items-center">
       
           <div className="flex justify-center  md:felx-row  gap-40 mt-32 mb-8">
-            <div className="mx-auto pl-12">
+            <div className="mx-auto">
               <h2
                 style={{
                   color: "var(--dark-80, #3C3C3C)",
